@@ -28,6 +28,7 @@ body{
 }
 
 
+
 .container{
     width:90%;
     max-width: 1000px;
@@ -35,6 +36,15 @@ body{
     flex-direction: column;
     margin-top: 20px;
     border-radius: 10px;
+    margin: 100px 0;
+}
+
+.grid{
+    position: absolute;
+    top:5vh;
+    left: 10vh;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 
@@ -134,5 +144,13 @@ body{
     }
     .section-bottom-cta{
         margin: 0;
+    }
+
+    .grid{
+        position: absolute;
+        top:10vh;
+        left: 10vh;
+        color:var(--very-dark-cyan);
+        font-size: 24px;
     }
 }
