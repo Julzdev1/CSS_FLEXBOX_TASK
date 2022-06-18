@@ -148,9 +148,10 @@ body{
 
     .grid{
         position: absolute;
-        top:10vh;
+        top:5vh;
         left: 10vh;
         color:var(--very-dark-cyan);
         font-size: 24px;
     }
+
 }
